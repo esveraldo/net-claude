@@ -1,0 +1,16 @@
+# .NET build artifacts
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+
+# SQLite local databases (restos de cuando se usaba SQLite; SQL Server es el proveedor activo)
+*.db
+*.db-shm
+*.db-wal
+
+# Configuración local privada (secretos). No se usa .NET User Secrets en este repositorio;
+# ver appsettings.Local.example.json para la plantilla sin secretos.
+appsettings.Local.json

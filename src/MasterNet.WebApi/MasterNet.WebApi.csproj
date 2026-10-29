@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.10" />
+	<PackageReference Include="Microsoft.OpenApi" Version="2.7.5" />
+	<PackageReference Include="Microsoft.AspNetCore.OData" Version="9.4.0" />
+
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		  <PrivateAssets>all</PrivateAssets>
+	  </PackageReference>
+
+	  <PackageReference Include="Scalar.AspNetCore" Version="2.16.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MasterNet.Application\MasterNet.Application.csproj" />
+    <ProjectReference Include="..\MasterNet.Infrastructure\MasterNet.Infrastructure.csproj" />
+    <ProjectReference Include="..\MasterNet.Persistence\MasterNet.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

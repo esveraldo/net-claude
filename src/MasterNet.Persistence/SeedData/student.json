@@ -1,0 +1,76 @@
+[
+  {
+    "Id": "01a07bbb-3b60-7835-a51c-a970362aecea",
+    "FirstName": "Ana",
+    "LastName": "Martinez",
+    "Email": "ana.martinez@example.com",
+    "Courses": [
+      "90314795-b797-42fe-82ae-2ac67bfff821",
+      "2ffc7d10-cb1e-4229-aa1c-58caa712c294"
+    ]
+  },
+  {
+    "Id": "01a07bbb-3b61-77df-b760-7acabc959965",
+    "FirstName": "Bruno",
+    "LastName": "Fernandez",
+    "Email": "bruno.fernandez@example.com",
+    "Courses": [
+      "90314795-b797-42fe-82ae-2ac67bfff821"
+    ]
+  },
+  {
+    "Id": "01a07bbb-3b61-74f8-a5a4-2439c13c289c",
+    "FirstName": "Carla",
+    "LastName": "Gomez",
+    "Email": "carla.gomez@example.com",
+    "Courses": [
+      "34c7e42f-08c1-435e-a172-ed78e61d9771",
+      "57256d9f-dc80-463b-9177-5692f571ab8d",
+      "d421aba7-ccc9-4d47-b545-0e6dfd30e138"
+    ]
+  },
+  {
+    "Id": "01a07bbb-3b61-7758-a63e-59d8caf7cde3",
+    "FirstName": "Diego",
+    "LastName": "Lopez",
+    "Email": "diego.lopez@example.com",
+    "Courses": [
+      "2ffc7d10-cb1e-4229-aa1c-58caa712c294"
+    ]
+  },
+  {
+    "Id": "01a07bbb-3b61-7f0f-9a0e-79fa32ea75c0",
+    "FirstName": "Elena",
+    "LastName": "Ramirez",
+    "Email": "elena.ramirez@example.com",
+    "Courses": [
+      "34c7e42f-08c1-435e-a172-ed78e61d9771"
+    ]
+  },
+  {
+    "Id": "01a07bbb-3b61-70c5-a1ac-e258b27ade69",
+    "FirstName": "Franco",
+    "LastName": "Torres",
+    "Email": "franco.torres@example.com",
+    "Courses": [
+      "57256d9f-dc80-463b-9177-5692f571ab8d",
+      "d421aba7-ccc9-4d47-b545-0e6dfd30e138"
+    ]
+  },
+  {
+    "Id": "01a07bbb-3b61-773c-b79a-cdadf71b5267",
+    "FirstName": "Gabriela",
+    "LastName": "Sanchez",
+    "Email": "gabriela.sanchez@example.com",
+    "Courses": []
+  },
+  {
+    "Id": "01a07bbb-3b61-76c2-a47f-69e5ec2119be",
+    "FirstName": "Hugo",
+    "LastName": "Diaz",
+    "Email": "hugo.diaz@example.com",
+    "Courses": [
+      "d421aba7-ccc9-4d47-b545-0e6dfd30e138"
+    ]
+  }
+]
